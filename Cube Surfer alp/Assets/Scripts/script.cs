@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class script : MonoBehaviour
 {
+    public Bildirimler bildirimler;
     public anan anan;
     public ButtonScript buttonScirpt;
     [SerializeField]
@@ -18,6 +20,7 @@ public class script : MonoBehaviour
     public Rigidbody rb;
     void Start()
     {
+        bildirimler.BildirimGonder();
         rb = GetComponent<Rigidbody>();
     }
 
@@ -48,7 +51,13 @@ public class script : MonoBehaviour
         }
 
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("finish"))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
 
 
 }
