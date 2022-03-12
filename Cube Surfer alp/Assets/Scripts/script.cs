@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class script : MonoBehaviour
 {
+    public anan anan;
     public ButtonScript buttonScirpt;
     [SerializeField]
     public float ileriGitmeHizi;
@@ -28,7 +29,7 @@ public class script : MonoBehaviour
 
         if (buttonScirpt.isPressLeft == true)
         {
-            rb.AddForce(-speed, 0, 0);
+            rb.AddForce(-speed * sagaSolaGitmeHizi * Time.deltaTime, 0, 0);
         }
         if(buttonScirpt.isPressLeft==false)
         {
@@ -36,15 +37,16 @@ public class script : MonoBehaviour
             rb.angularVelocity = Vector3.zero;
         }
 
-        if (buttonRightScript.isPressRight == true)
+        if (anan.isPressRight == true)
         {
-            rb.AddForce(speed, 0, 0);
+            rb.AddForce(speed*sagaSolaGitmeHizi*Time.deltaTime, 0, 0);
         }
-        if (buttonRightScript.isPressRight == false)
+        if (anan.isPressRight == false)
         {
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
         }
+
     }
 
 
