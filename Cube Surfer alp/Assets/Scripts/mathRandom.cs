@@ -14,17 +14,19 @@ public class mathRandom : MonoBehaviour
     public Text text6;
     public Text text7;
 
+    public GameObject[] walls;
+
     public bool isDead;
 
     void Start()
     {
 
-        string[] maths1 = new string[] { "2x2+2", "3x2-1", "3x3x3-13", "5x5/5", "1/1x7", "10+20/4" };
-        string[] maths2 = new string[] { "30+5-4", "2x2+2x2+2x2", "5x5x5/25", "50/2-5", "5", "6x6-6" };
-        string[] maths3 = new string[] { "15+2x2", "20+1-1", "-1+20-1", "4+4", "20/2x2", "10x5x2-101" };
-        string[] maths4 = new string[] { "32+2-2+2-2+2", "40/4x10", "38+2+2+2-4", "30+30/5", "5-5x12", "6x6+4" };
-        string[] maths5 = new string[] { "2x2", "2x2x2-6", "2x2+2", "2x2x2x2/16+2", "2", "2/2+4+1" };
-        string[] maths6 = new string[] { "36/6x2", "9x9+9", "8x9+9", "45+5x5", "", "1x1x89x1" };
+        string[] maths1 = new string[] { "2x2","2+2","4/2" };//KAYBET
+        string[] maths2 = new string[] { "3+3","3x2","6/2" };//KAZAN
+        string[] maths3 = new string[] { "15+2x2", "20-1", "-1+20", "5x5-6", "9+9+1", "19" };//KAYBET
+        string[] maths4 = new string[] { "4x4+4", "", "16+4", "4x5", "5x4", "19+1" };//KAZAN
+        string[] maths5 = new string[] { "10x3", "3x10", "31-1", "6x5", "30+1", "6x6-6" };//KAZAN
+        string[] maths6 = new string[] { "2x10+5", "4x4+9", "6x5-5", "25x1x1", "1x25x1", "5x5" };
         string[] maths7 = new string[] { "15+10", "5x5+2", "5x10/2-2", "2x10+4", "3x3x2", "23" };
         string randomName1 = maths1[Random.Range(0, maths1.Length)];
         string randomName2 = maths2[Random.Range(0, maths2.Length)];
@@ -49,7 +51,7 @@ public class mathRandom : MonoBehaviour
 
     void Update()
     {
-      
+
     }
 
 }
