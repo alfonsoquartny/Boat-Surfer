@@ -14,4 +14,9 @@ public class menuScript : MonoBehaviour
     {
         timeLine.SetActive(true);
     }
+
+    public void exit()
+    {
+        Application.Quit();
+    }
 }
