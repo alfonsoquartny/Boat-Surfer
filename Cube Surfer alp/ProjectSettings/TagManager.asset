@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LevelUp
   - finish
+  - leftTrigger
+  - rightTrigger
   layers:
   - Default
   - TransparentFX
