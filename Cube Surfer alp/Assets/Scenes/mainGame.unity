@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.56
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.8262392, g: 0.8301887, b: 0.5991456, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: da976b1a4f7ebb949b0f71341e4f1821, type: 2}
@@ -672,6 +672,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100006, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
       propertyPath: m_Name
       value: Torch_01_Unlit (4)
@@ -1117,6 +1121,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100000, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
       propertyPath: m_Name
       value: Torch_02_Unlit (5)
@@ -2149,6 +2157,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100000, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
       propertyPath: m_Name
       value: Torch_02_Unlit (1)
@@ -2289,6 +2301,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100000, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
       propertyPath: m_Name
       value: Torch_02_Unlit
@@ -7525,6 +7541,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100006, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
       propertyPath: m_Name
       value: Torch_01_Unlit (1)
@@ -7934,6 +7954,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100006, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
       propertyPath: m_Name
       value: Torch_01_Unlit
@@ -8069,7 +8093,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 70.6
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -8127,7 +8151,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9f652d979add40147845d22815ef3d8a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.107
+  m_Volume: 0.061
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8582,6 +8606,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100000, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
       propertyPath: m_Name
       value: Torch_02_Unlit (4)
@@ -8772,6 +8800,14 @@ PrefabInstance:
     - target: {fileID: 115066, guid: ae276b5e711a77c4386eb543c4b554ac, type: 3}
       propertyPath: m_Name
       value: Lighthouse_01_Lit
+      objectReference: {fileID: 0}
+    - target: {fileID: 115066, guid: ae276b5e711a77c4386eb543c4b554ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 145236, guid: ae276b5e711a77c4386eb543c4b554ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 453266, guid: ae276b5e711a77c4386eb543c4b554ac, type: 3}
       propertyPath: m_LocalScale.x
@@ -9164,13 +9200,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683905339}
-  m_LocalRotation: {x: 0.90754586, y: -0.020177158, z: 0.03624771, w: 0.417899}
+  m_LocalRotation: {x: -0.2635437, y: -0.09995969, z: 0.41231132, w: -0.86634415}
   m_LocalPosition: {x: 0, y: 3, z: 27.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 49.463, y: 175.683, z: 180.558}
+  m_LocalEulerAnglesHint: {x: 147.38, y: 176.997, z: 128.22}
 --- !u!1001 &696186654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9852,6 +9888,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100000, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
       propertyPath: m_Name
       value: Torch_02_Unlit (3)
@@ -10836,6 +10876,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 696186655}
     m_Modifications:
+    - target: {fileID: 100006, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
       propertyPath: m_Name
       value: Torch_01_Unlit
@@ -14591,6 +14635,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100006, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
       propertyPath: m_Name
       value: Torch_01_Unlit (2)
@@ -20284,6 +20332,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100006, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 96c8531abcc08ea4990c6d1e347860e6, type: 3}
       propertyPath: m_Name
       value: Torch_01_Unlit (3)
@@ -21303,6 +21355,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1016316066}
     m_Modifications:
+    - target: {fileID: 100000, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 40442d29bd679624eb065b5faf4ae1bd, type: 3}
       propertyPath: m_Name
       value: Torch_02_Unlit (2)
